@@ -23,11 +23,24 @@ Obs.: deve-se usar padrões SOLID
 
 ## Rodar projeto
 
+### Docker
+
 Primeiro faça um git clone:
 
 ```powershell
 git clone https://github.com/andresalerno/DES-WEBIII-atvi.git
 ```
+
+Criar o container do banco de dados MySQL:
+
+```powershell
+docker run -d --name atvi -p 3309:3306 -e MYSQL_ROOT_PASSWORD=salerno mysql:latest
+```
+
+Abra o Workbenck e crie um banco de dados com o nome `atvi`.
+
+
+### Execute a aplicação
 
 Baseado na imagem abaixo, sobre o arquivo `AutomanagerApplication.java` clicar com o botão direto e seguir os passos da imagem abaixo.
 
@@ -36,7 +49,7 @@ Baseado na imagem abaixo, sobre o arquivo `AutomanagerApplication.java` clicar c
 Obs.: é importante destacar que um container do Docker com o MYSql deve estar rodando
 
 
-## Endpoints
+## Endpoints para testes
 
 ### Cliente
 
