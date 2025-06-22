@@ -63,6 +63,9 @@ Obs.: é importante destacar que um container do Docker com o MYSql deve estar r
 |    [![](https://img.shields.io/badge/PUT-9370DB?style=for-the-badge)]() | `http://localhost:8080/cliente/atualizar`          | Alteração dos dados do cliente     |
 | [![](https://img.shields.io/badge/DELETE-CD853F?style=for-the-badge)]() | `http://localhost:8080/cliente/excluir`     | Exclusão de cliente             |
 
+Testes realizados: OK (Insomnia)
+
+
 ### Modelos Json
 
 ```json
